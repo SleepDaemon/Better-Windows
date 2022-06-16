@@ -30,17 +30,14 @@ If you don't know how to use the certain tools listed (e.g NVCleaninstall, CTT D
 - [NVIDIA Control Panel without MS Store](https://rentry.co/gaydia)
 - [Lenovo Vantage without MS Store](https://rentry.co/lenbian)
 
-
 ## How To Use the Tools
 - [NVCleanInstall Guide](https://rentry.co/NVCleanInstall)
-- [CTT Debloat Guide](https://rentry.co/CTT)
+- [CTT Debloat Video](https://youtu.be/tPRv-ATUBe4)
 - [QuickBoost Guide](https://rentry.co/quickboost)
+> [CTT Debloat Guide](https://rentry.co/CTT) previous guide
 
 >
     Don't Run Uninstall Microsoft Store, if you did there is a Reinstall option in CTT
-
-> How to Use Sophia Script **(for Second Method only)**:
-    Go to Github and download the `Sophia.Script.Wrapper.v2.5.3.zip`,unzip it and run the wrapper.exe then go back to Github and download the `Sophia.Script.for.Windows.10.v5.12.10.PowerShell.7.zip`, unzip it and open it till you find the `Sophia.ps1` file. Then in the wrapper.exe import the file and go through the options and edit them to your preferences/liking. If you don't know what certain is or does then google it, if you can't find anything about it then simply leave it the way it is (Default).
 
 # For Pro Gamers
 
@@ -71,11 +68,11 @@ If you planning on gaming only on your device and nothing else then instead of L
 2. Install & Run [NVCleanInstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/), allows you to install graphics driver without the bloat.
     - For AMD use [Radeon Software Slimmer](https://github.com/GSDragoon/RadeonSoftwareSlimmer) or follow this guide [Stripping The AMD Driver]
 
-3. Download & Run (as Admin) [Sophia Script](https://github.com/farag2/Sophia-Script-for-Windows) for LTSC, Sophia script is debloating script for removing last bit of bloatware
+> **Optional:** Download & Run (as Admin) [Sophia Script](https://github.com/farag2/Sophia-Script-for-Windows) for LTSC, Sophia script is debloating script for removing last bit of bloatware
 
-4. Download & Run (as Admin) [QuickBoost](https://github.com/SanGraphic/QuickBoost) and run the tweaks to improve performance.
+3. Download & Run (as Admin) [QuickBoost](https://github.com/SanGraphic/QuickBoost) and run the tweaks to improve performance.
 
->That's all for this section, scroll down to the bottom for [Post Debloating](https://github.com/SleepDaemon/Better-Windows/edit/main/README.md#post-debloating) and follow that if you want.
+That's all for this section, scroll down to the bottom for [Post Debloating](https://github.com/SleepDaemon/Better-Windows/edit/main/README.md#post-debloating) and follow that if you want.
 
 # Second Method (Pre-Installed Windows)
 >
@@ -86,13 +83,9 @@ If you planning on gaming only on your device and nothing else then instead of L
 2. Install & Run [NVCleanInstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/), allows you to install graphics driver without the bloat.
     - For AMD use [Radeon Software Slimmer](https://github.com/GSDragoon/RadeonSoftwareSlimmer) or follow this guide [Stripping The AMD Driver]
 
-3. Download & Run (as Admin) [Sophia Script](https://github.com/farag2/Sophia-Script-for-Windows) for Regular Windows
+3. Download & Run (as Admin) [QuickBoost](https://github.com/SanGraphic/QuickBoost) and run the tweaks to improve performance.
 
->I recommend the Wrapper for Sophia as its more user friendly
-
-4. Download & Run (as Admin) [QuickBoost](https://github.com/SanGraphic/QuickBoost) and run the tweaks to improve performance.
-
->That's all for this section, scroll down to the bottom for [Post Debloating](https://github.com/SleepDaemon/Better-Windows/edit/main/README.md#post-debloating) and follow that if you want.
+That's all for this section, scroll down to the bottom for [Post Debloating](https://github.com/SleepDaemon/Better-Windows/edit/main/README.md#post-debloating) and follow that if you want.
 
 # Post Debloating
 This section is for after completed first or second method.
@@ -111,6 +104,8 @@ This section is for after completed first or second method.
 >I personally use and recommend [Flameshot](https://flameshot.org/) super lightweight and FOSS as well.
 3. [Ditto Clipboard](https://ditto-cp.sourceforge.io/) (FOSS lightweight clipboard)
 
+4. [Beauty Search](https://github.com/krlvm/BeautySearch) (FOSS Customize Windows Search) 
+
 4. [ImageGlass Spider](https://imageglass.org/spider) (FOSS Image Viewer with plugin and theme support)
 
 5. [ModernFlyouts](https://github.com/ModernFlyouts-Community/ModernFlyouts) (FOSS modern flyouts for Windows)
@@ -119,7 +114,6 @@ This section is for after completed first or second method.
 
 7. [EarTrumpet](https://github.com/File-New-Project/EarTrumpet) (FOSS Better Windows audio control) 
 
->I use and recommend EarTrumpet, far better than the default.
 
 8. [VLC](https://www.videolan.org/vlc/) (FOSS Media Player)
     1. or [MPV](https://mpv.io/) (FOSS mostly preferred by majority of people)
@@ -129,8 +123,6 @@ This section is for after completed first or second method.
 
 10. [Notepad++](https://notepad-plus-plus.org/) (FOSS text editor with extra features and support)
 
->I use and recommend Notepad++, as it supports more file types and it makes it easier when making modifications to certain files.
-
 11. Music Player of your choice 
     - [Harmonoid](https://github.com/harmonoid/harmonoid) (FOSS, YTM support, doesn't run on electron.js, runs on Flutter instead.)
     - [Foobar2000](https://www.foobar2000.org/) (used among music enthusiast)
@@ -139,4 +131,9 @@ This section is for after completed first or second method.
     - [Winamp](https://www.winamp.com/) (Known by many, and still use by many today)
     - [Rise Media Player](https://github.com/Rise-Software/Rise-Media-Player) (FOSS, groove music but better and supports other media)
 
-12. [Kdenlive](https://kdenlive.org/) (FOSS Video Editor)"# Better-WIndows" 
+12. [Kdenlive](https://kdenlive.org/) (FOSS Video Editor)"# Better-WIndows"
+
+13. [CompactGUI](https://github.com/IridiumIO/CompactGUI) (FOSS Compresses game files while still being playable)
+
+To be added:
+- https://github.com/BartoszCichecki/LenovoLegionToolkit
